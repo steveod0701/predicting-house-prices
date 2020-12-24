@@ -32,6 +32,18 @@ Lasso (a = 0.1) 일때 가장 우수
 R-squared : 0.688
 5겹 교차 검증 : 0.686
 
+평수-집값 단순 선형 회귀  
+![alt text](https://github.com/steveod0701/predicting-house-prices/blob/main/f1.PNG?raw=true)  
+
+다중 선형 회귀    
+![alt text](https://github.com/steveod0701/predicting-house-prices/blob/main/f2.PNG?raw=true)  
+
+Lasso 회귀분석 a = 1
+![alt text](https://github.com/steveod0701/predicting-house-prices/blob/main/f3.PNG?raw=true)  
+
+KNN 회귀분석 k = 15
+![alt text](https://github.com/steveod0701/predicting-house-prices/blob/main/f4.PNG?raw=true)
+
 ## 모델 성능 개선  
 단순히 오차가 큰 인스턴스 아닌 실제 값에 대한 오차 비율이 큰 이상치 제거  
 ``` 'error/actual': (actual - predicted)/actual ``` 비율 0.6 이상 이상치 제거
